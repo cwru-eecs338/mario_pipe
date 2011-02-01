@@ -83,4 +83,5 @@ void child(int pipe_read_fd) {
 
     // Close the pipe
     close(pipe_read_fd);
+    _exit(EXIT_SUCCESS);
 }
